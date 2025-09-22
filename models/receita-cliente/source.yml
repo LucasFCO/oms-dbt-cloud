@@ -1,0 +1,16 @@
+# especifica o local onde vai ser retiradas as informações.
+sources:
+  - name: landing
+    database: SLEEKMART_OMS_DEV
+    schema: OMS_CORE #L1_LANDING
+
+# lista das tabelas que serão utilizadas no projeto.
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders
+      - name: orderitems
+        identifier: orderitems
+      - name: employees
+        identifier: employees
